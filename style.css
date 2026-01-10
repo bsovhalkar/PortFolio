@@ -1,3 +1,66 @@
+/* DARK MODE */
+body.dark {
+    background: #0f172a;
+    color: #e5e7eb;
+}
+
+body.dark .navbar,
+body.dark footer {
+    background: #0f172a;
+}
+
+
+body.dark .navbar,
+body.dark .navbar a,
+body.dark .logo,
+body.dark .nav-btn,
+body.dark .menu-toggle {
+    color: #ffffff;
+}
+
+body.dark p{
+    color: #e5e7eb;
+
+}
+
+/* FIXED DARK MODE TOGGLE BUTTON */
+#theme-toggle {
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    z-index: 9999;
+
+    padding: 8px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+
+    background: #2563eb;
+    color: #ffffff;
+    border: none;
+    font-size: 14px;
+}
+
+/* Dark mode button style */
+body.dark #theme-toggle {
+    background: #020617;
+    color: #ffffff;
+    border: 1px solid #334155;
+}
+
+
+body.dark .card,
+body.dark .skill,
+body.dark .contact-form,
+body.dark .section.light {
+    background: #020617;
+    color: #e5e7eb;
+}
+
+body.dark a {
+    color: inherit;
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -206,3 +269,15 @@ footer {
         display: flex;
     }
 }
+
+
+.card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+} 
